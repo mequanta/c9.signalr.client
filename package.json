@@ -1,0 +1,10 @@
+{
+  "name": "c9.signalr.client",
+  "version": "0.1.0",
+  "plugins": {
+    "signalr": {}
+  },
+  "categories": [
+    "mequanta"
+  ]
+}
