@@ -4,7 +4,7 @@ define(function (require, exports, module) {
     main.consumes = [
         "Plugin"
     ];
-    main.provides = ["mso.signalr"];
+    main.provides = ["signalr"];
     return main;
 
     function main(options, imports, register) {
@@ -50,7 +50,7 @@ define(function (require, exports, module) {
         });
 
         register(null, {
-            "mso.signalr": plugin
+            "signalr": plugin
         });
     }
 });
